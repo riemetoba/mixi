@@ -1,0 +1,186 @@
+/* All common CSS start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All common CSS end */
+
+/* Mixitup part start */
+#mixItUp {
+  padding: 50px 0;
+  background-image: linear-gradient(
+    to right top,
+    #2a2a2a,
+    #3a3b4e,
+    #414e75,
+    #3b63a0,
+    #007bcd
+  );
+}
+
+.we button {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.we {
+  text-align: center;
+}
+
+.mixup {
+  padding: 100px 0;
+}
+/* Mixitup part end */
+
+/* Back to top start */
+#batotop {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.circel {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #c32929;
+  position: relative;
+}
+
+.circel a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 30px;
+}
+/* Back to top end */
+
+/* Slick slider start */
+#slider {
+  padding: 50px 0;
+  background-image: linear-gradient(
+    to right top,
+    #386d7c,
+    #00767d,
+    #007d73,
+    #00835d,
+    #23873d
+  );
+}
+
+.preSlider {
+  position: relative;
+}
+
+.preSlider ul {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.preSlider li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #808080;
+  margin-right: 10px;
+}
+
+.preSlider li button {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slick-dots .slick-active {
+  background: #db4444;
+  border: 2px solid #fff;
+  scale: 1.3;
+}
+
+.voerlay {
+  background: rgba(42, 42, 42, 0.5);
+  padding: 100px;
+}
+
+.slideOne {
+  background: #007bcd;
+}
+
+.slideTwo {
+  background: #2a2a2a;
+}
+
+.slideThr {
+  background: #3a3b4e;
+}
+
+.slideFou {
+  background: #c32929;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #fff;
+  z-index: 1;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #fff;
+}
+/* Slick slider end */
+
+/* Aos part start */
+#aos {
+  background-image: linear-gradient(
+    to right top,
+    #ff0000,
+    #c90015,
+    #920019,
+    #5d0715,
+    #2c0707
+  );
+  padding: 100px;
+}
+
+#aos h1 {
+  color: #fff;
+}
+/* Aos part end */
